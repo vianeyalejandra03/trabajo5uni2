@@ -1,0 +1,195 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+body{
+	background:url(fondo1.png);
+	background-color: rgb(247, 233, 43);
+}
+p{
+	font-size: 15px;
+	font-family: arial;
+	line-height: 20px;
+}
+h3{
+	color: rgb(0, 0, 0);
+	background: url(../imagenes/fondo2.png) repeat-x;
+	border-radius: 40px;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 100%;
+	border-top:rgb(22, 165, 190) 5px outset;
+	border-left:rgb(23, 221, 188) 5px outset;
+	border-right:rgb(25, 221, 205) 5px outset;
+	border-bottom:rgb(27, 161, 214) 5px outset;
+
+}
+h4{ color:rgb(255, 217, 47);
+	text-align: center;
+	font-size: 23px;
+	font-family: verdana;
+	font-weight: bold;	
+}
+header{
+	font-style: italic;
+	font-family: monospace;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	background: url('../imagenes/cabecera.png');
+	height: 150px;
+	width: 960px;
+	border-top:rgb(22, 165, 190) 5px outset;
+	border-left:rgb(23, 221, 188) 5px outset;
+	border-right:rgb(25, 221, 205) 5px outset;
+	border-bottom:rgb(27, 161, 214) 5px outset;
+
+}
+header h1{
+	color: #000;
+	font-family: verdana;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 150px;
+	margin-top: 10px;
+	padding-left: 20px;
+	/*text-transform: uppercase;*/
+	vertical-align: middle;
+}
+nav{
+	margin-top: 3px;
+	border-radius:10px;
+	background: url(../imagenes/fondo2.png) repeat-x;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+	border-top:rgb(255, 255, 255) 5px outset;
+	border-left:rgb(255, 255, 255) 5px outset;
+	border-right:rgb(223, 223, 223) 5px outset;
+	border-bottom:rgb(212, 212, 212) 5px outset;
+
+}
+nav ul{
+	text-align: center;
+	list-style: none;
+	width: 100%;
+}
+nav ul li{
+	color: #FFF;
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+nav ul li:hover{
+	color: #000303;
+	background: rgb(255, 237, 77);
+	background: radial-gradient(circle, rgb(255, 252, 95) 0%, rgb(255, 169, 9) 100%);	border-radius: 70px;
+}
+#slider{
+	background: url('../imagenes/fondo_interior.png') #95ee77e1;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+#slider img{
+	height: 350px;
+}
+#continicio{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+#continicio h2{
+	font-size: 40px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+#slider figure img{
+	display: block;
+	border-radius: 15px;
+	box-shadow: 1px 1px 10px rgb(96, 60, 255);
+	opacity: .9;
+	width: 100%;
+	margin: auto;
+	border-top:rgb(22, 165, 190) 5px outset;
+	border-left:rgb(23, 221, 188) 5px outset;
+	border-right:rgb(25, 221, 205) 5px outset;
+	border-bottom:rgb(27, 161, 214) 5px outset;
+
+}
+.contenido{
+	background: rgb(255, 255, 255);
+background: linear-gradient(0deg, rgba(34, 192, 195, 0) 0%, rgb(255, 255, 255)100%);
+	border-radius: 40px;
+	margin-top: 3px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+.articulos{
+	padding: 10px;
+}
+.articulos img{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.serv1{
+	padding-bottom: 10px;
+	margin-left: 25px;
+	display: inline-block;
+	width: 280px;   
+}
+
+.serv1 img{
+	border-radius: 10px;
+	border:1px solid #000;
+	margin-top: 10px;
+	height: 150px;
+	width: 100%;
+}
+
+footer{
+	border-radius: 90px;
+	background: url(../imagenes/abajo.png);
+	height: 75px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+	border-top:rgb(22, 165, 190) 5px outset;
+	border-left:rgb(23, 221, 188) 5px outset;
+	border-right:rgb(25, 221, 205) 5px outset;
+	border-bottom:rgb(27, 161, 214) 5px outset;
+
+}
+footer p{
+	color: rgb(0, 0, 0);
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+	text-align: center;
+	line-height: 75px;
+	/*vertical-align: middle;*/
+	text-shadow: 1px 1px 1px rgb(31, 34, 252);
+
+	
+}
